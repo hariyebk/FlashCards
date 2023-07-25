@@ -1,2 +1,3 @@
-# React-Quiz
-Created with CodeSandbox
+# Structure
+
+The project consists of a single component called FlashCards, which is defined in the src/App.js file. The FlashCards component renders a set of flashcards, each of which contains a question and an answer. The questions and answers are stored in an array called questions, which is defined at the top of the App.js file. The FlashCards component maps over this array to render each flashcard. The FlashCards component also uses the useState hook to keep track of which flashcard is currently selected. When a flashcard is clicked, the handleClick function is called to update the selected flashcard. The styles for the app are defined in the styles.css file, which is imported at the top of the App.js file.
